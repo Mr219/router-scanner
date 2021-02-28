@@ -63,7 +63,7 @@ def do():
     except KeyboardInterrupt:
         print('got ^C while pool mapping, terminating the pool')
         p.terminate()
-        print('\r[!] Good Bye J3rry')
+        print('\r[!] Good Bye Krystal')
         sys.exit()
     finally:
         p.join()
